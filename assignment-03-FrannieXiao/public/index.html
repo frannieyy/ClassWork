@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.event.drag-2.0.js"></script> -->
+	<link rel="stylesheet" href="style.css" />
+
+	<title>Draw Something</title>
+</head>
+
+<body>
+	<div id="toolbar">
+		<div id="rad">
+			Radius<span id="radval">10</span>
+			<div id="decrad" class="radcontrol">-</div>
+			<div id="incrad" class="radcontrol">+</div>
+		</div>
+
+		<div id="colors">
+	</div>	
+	</div>
+
+	<canvas id="canvas">
+		Draw here
+	</canvas>
+
+	<!-- Scripts required -->
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.event.drag-2.0.js"></script> -->
+	<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="sketch.js"></script>
+	<script type="text/javascript" src="radius.js"></script>
+	<script type="text/javascript" src="colors.js"></script>
+</body>
